@@ -1,0 +1,136 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Signika Negative', sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+  background-image: url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-size: 100%;
+}
+
+html, body {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      font-size: 1.3em;
+    }
+
+    nav {
+    position: above;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+  }
+
+  nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+    }
+
+    nav ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #1033a6;
+        font-size: 15px;
+    }
+
+    nav li a{
+        float:left;
+    }
+
+    nav li a {
+        text-decoration: none;
+        color: #fff;
+        padding: 15px 40px;
+        font-size: 1.3em;
+        display: inline-block;
+    }
+
+    nav a:hover {
+      background: #1e90ff;
+    color: black;
+    font-weight: bold;
+    transition: 0.6s;
+  }
+
+    .house a:hover{
+      transform: scale(1.5);
+      transition: 0.3s;
+    }
+
+    .user {
+      padding-right: 15px;
+    }
+
+    .user a, text {
+      color: #fff;
+      padding: 15px 10px;
+      font-size: 1.3em;
+      float: right;
+    }
+
+    .user a:hover {
+      color:black;
+      transform: scale(1.5);
+      transition: 0.3s;
+    }
+
+.maintitle {
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    }
+
+.container{
+    font-family: 'Signika Negative', sans-serif;
+    background-color: #fff;
+    text-align: justify;
+	padding: 50px 80px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    min-height: calc(100vh - 250px);
+	margin: 100px 200px 100px 200px;
+}
+
+
+.footer {
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #1034A6;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  overflow: hidden;
+  border-top: 5px solid #a2f1ff;
+  height: 50px;
+}
+
+.footer-content {
+  padding-left: 30px;
+}
+
+.footer-content1 a {
+  padding-right: 30px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-content1 a:hover {
+  color: black;
+}
